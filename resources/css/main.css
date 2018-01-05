@@ -1,0 +1,22 @@
+html{
+  width: 100%;
+}
+#header{
+  width: 100%;
+  position: fixed;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+#logo{
+  display: inline-flex;
+  align-items: center;
+  color: MediumAquamarine;
+}
+#header_menu{
+
+
+}
