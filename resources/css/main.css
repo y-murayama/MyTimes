@@ -2,7 +2,7 @@ html{
   width: 100%;
 }
 #header{
-  width: 100%;
+  width: 98%;
   position: fixed;
   display: inline-flex;
   justify-content: space-between;
@@ -10,13 +10,24 @@ html{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  padding: 10px;
+  border: 1px solid #000;
 }
 #logo{
   display: inline-flex;
   align-items: center;
+  border: 1px solid #000;
+  flex: 2 1;
+}
+#name{
   color: MediumAquamarine;
+  margin: 0 15px;
 }
 #header_menu{
 
-
+}
+.nav{
+  border: 0px solid #000;
+  text-decoration: underline;
+  margin: 0 15px;
 }
