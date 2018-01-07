@@ -1,23 +1,32 @@
 html{
+
+}
+body{
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 #header{
-  width: 98%;
+  width: inherit;
   position: fixed;
+  z-index: 12;
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  padding: 10px;
   border: 1px solid #000;
+  background-color: white;
 }
 #logo{
   display: inline-flex;
   align-items: center;
   border: 1px solid #000;
   flex: 2 1;
+}
+#nav_header{
+  flex: 1 0 ;
 }
 #name{
   color: MediumAquamarine;
@@ -30,4 +39,87 @@ html{
   border: 0px solid #000;
   text-decoration: underline;
   margin: 0 15px;
+}
+#main{
+  position: absolute;
+  top:100px;
+  left:inherit;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.column{
+    border: 1px solid #ccc;
+}
+.columnl{
+    border: 1px solid #ccc;
+    background-size: contain;
+    width: 629px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;    
+}
+.columnm{
+    border: 1px solid #ccc;
+    background-size: contain;
+    width: 299px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.columns{
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+.back1{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+}
+.back2{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+}
+.back3{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+}
+.back4{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+}
+.imgtext{
+    font-family: Georgia;
+    font-weight: bold;
+    color: white;
+}
+.fontsize30{
+    font-size: 30px;
+}
+.fontsize40{
+    font-size: 40px;
+}
+/*.noimgtext{
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}*/
+.large {
+  width: 630px;
+  padding: 10px;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.medium {
+  width: 300px;
+  margin: 10px;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.small {
+  width: 240px;
+  margin: 10px;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
 }
